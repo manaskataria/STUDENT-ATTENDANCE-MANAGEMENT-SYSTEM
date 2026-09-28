@@ -1,22 +1,17 @@
 # Student Attendance Management System
 
-## 1. Project Title
 
-**Student Attendance Management System**
-
-## 2. Overview of the Project
+## 1. Overview of the Project
 
 The Student Attendance Management System is a simple console-based Python application for managing student information and attendance records.
 
 The project is divided into separate Python modules so that student management, attendance management, and attendance analysis can be handled independently. The main program provides a menu-driven interface through which the user can access these functions.
 
-The system allows the user to add, remove, search, and view students, record attendance, view attendance records, calculate attendance percentages, check eligibility based on a 75% attendance requirement, and identify the students with the highest and lowest attendance.
-
-## 3. Features
+## 2. Features
 
 ### Student Management
-- Add a student using a student ID and name.
-- Remove an existing student.
+- Adding students .
+- Removing an existing student.
 - Search for a student using the student ID.
 - View all registered students.
 
@@ -28,15 +23,14 @@ The system allows the user to add, remove, search, and view students, record att
 ### Attendance Analysis
 - Calculate the attendance percentage of each student.
 - Check whether a student meets the 75% attendance requirement.
-- Find the student with the highest attendance.
-- Find the student with the lowest attendance.
+- Find the student with the highest and lowest attendance.
 
 ### Menu-Driven Interface
 - Main menu for accessing different parts of the system.
 - Separate menus for student management, attendance management, and attendance analysis.
 - Option to return to the previous menu or exit the program.
 
-## 4. Technologies / Tools Used
+## 3. Technologies / Tools Used
 
 - **Python 3**
 - Python functions
@@ -48,7 +42,7 @@ The system allows the user to add, remove, search, and view students, record att
 - Console input/output
 - Git and GitHub for project version control
 
-## 5. Project Structure
+## 4. Project Structure
 
 ```text
 Student-Attendance-Management-System/
@@ -72,7 +66,7 @@ Student-Attendance-Management-System/
 | `README.md` | Contains project documentation |
 | `statement.md` | Contains the project problem statement and scope |
 
-## 6. Steps to Install & Run the Project
+## 5. Steps to Install & Run the Project
 
 ### Prerequisites
 
@@ -110,7 +104,7 @@ python main.py
 
 The program will display the Student Attendance Management System menu.
 
-## 7. Instructions for Testing
+### Testing
 
 The project can be tested through the options provided in the console menu.
 
@@ -159,7 +153,7 @@ The project can be tested through the options provided in the console menu.
 
 Enter a value other than the available menu options and verify that the program displays an invalid-choice message instead of terminating immediately.
 
-## 8. Attendance Calculation
+## 6. Attendance Calculation
 
 The attendance percentage is calculated using:
 
@@ -179,7 +173,7 @@ Attendance Percentage = (8 / 10) × 100
                        = 80%
 ```
 
-## 9. Limitations
+## 7. Limitations
 
 - Data is stored only while the program is running.
 - The project does not currently use a database.
@@ -187,18 +181,6 @@ Attendance Percentage = (8 / 10) × 100
 - Attendance is recorded using student names.
 - Advanced authentication and user accounts are not included.
 
-## 10. Future Improvements
-
-Possible future improvements include:
-
-- Saving student and attendance data permanently.
-- Using a database for storing records.
-- Adding date-wise attendance.
-- Adding student details such as course and semester.
-- Adding a graphical user interface.
-- Adding better input validation.
-- Generating attendance reports.
-
-## 11. Project Purpose
+## 8. Project Purpose
 
 This project is intended as a Python programming project for practising functions, dictionaries, lists, loops, conditional statements, modular programming, and basic data processing.
