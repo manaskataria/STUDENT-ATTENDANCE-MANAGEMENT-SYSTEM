@@ -179,25 +179,7 @@ Attendance Percentage = (8 / 10) × 100
                        = 80%
 ```
 
-## 9. Screenshots
-
-Screenshots are optional but recommended for the GitHub repository.
-
-Suggested screenshots:
-
-1. Main menu
-2. Student management menu
-3. Student details after adding a student
-4. Attendance records
-5. Attendance percentage and analysis
-
-Add screenshots to the repository and reference them here, for example:
-
-```markdown
-![Main Menu](screenshots/main-menu.png)
-```
-
-## 10. Limitations
+## 9. Limitations
 
 - Data is stored only while the program is running.
 - The project does not currently use a database.
@@ -205,7 +187,7 @@ Add screenshots to the repository and reference them here, for example:
 - Attendance is recorded using student names.
 - Advanced authentication and user accounts are not included.
 
-## 11. Future Improvements
+## 10. Future Improvements
 
 Possible future improvements include:
 
@@ -217,6 +199,6 @@ Possible future improvements include:
 - Adding better input validation.
 - Generating attendance reports.
 
-## 12. Project Purpose
+## 11. Project Purpose
 
 This project is intended as a Python programming project for practising functions, dictionaries, lists, loops, conditional statements, modular programming, and basic data processing.
